@@ -1,10 +1,10 @@
 # watermodule_final
-Install Django \n
-pip3 install Django
-Install djangorestframework
-pip3 install djangorestframework
-install django-cors-headers
-go to watermodulechristapi
+Install Django <br/>
+pip3 install Django <br/>
+Install djangorestframework <br/>
+pip3 install djangorestframework <br/>
+install django-cors-headers <br/>
+go to watermodulechristapi <br/>
 cd watermodulechristapi
 install npm
 npm create-react-app <app_name>
