@@ -1,5 +1,5 @@
 # watermodule_final
-Install Django
+Install Django \n
 pip3 install Django
 Install djangorestframework
 pip3 install djangorestframework
