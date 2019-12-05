@@ -6,7 +6,7 @@ pip3 install djangorestframework <br/>
 install django-cors-headers <br/>
 go to watermodulechristapi <br/>
 cd watermodulechristapi <br/>
-python3 manage.py runserver <host_address>:<host_port>
+python3 manage.py runserver <host_address>:<host_port><br/>
 install npm <br/>
 npm create-react-app <app_name> <br/>
 cd <app_name> <br/>
