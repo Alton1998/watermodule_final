@@ -1,0 +1,5 @@
+NodeMCU JSN-SR04
+GND        GND
+Vin        VCC
+D1         Trig
+D2         Echo
