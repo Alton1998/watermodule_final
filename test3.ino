@@ -1,9 +1,9 @@
 
 #include <SPI.h>
 #include <UIPEthernet.h>
-byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
-IPAddress server(192,168,2,12);  // numeric IP for Google (no DNS)
-IPAddress ip(192,168,2,155);
+byte mac[] = { 0x74,0x69,0x69,0x2D,0x30,0x31};
+IPAddress server(172,16,34,3);  // numeric IP for Google (no DNS)
+IPAddress ip(172,16,34,51);
 unsigned long echo = 0;
 int ultraSoundSignal = 3; // Ultrasound signal pin
 int ultraSoundSignalIN = 2; // Ultrasound signal pin
@@ -55,7 +55,7 @@ void loop()
     // Make a HTTP request:
     Serial.println("connected");
   client.println("GET /watermodule/TanksReading/"+String(x)+"/1/ HTTP/1.1");
-  client.println("Host: 192.168.2.12");
+  client.println("Host: 172.16.34.3");
   client.println("User-Agent: Arduino/1.0");
   client.println("Content-Type: application/json;");
    client.println("Connection: close");
